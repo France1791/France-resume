@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    font-family: "Briem Hand", cursive;
+    background-color: aqua;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.name-title{
+    display: flex;
+    /* width: 30%; */
+    flex-direction: column;
+}
+
+.main-container{
+    display: flex;
+    margin: 50px auto;
+    height: auto;
+    flex-direction: column;
+    width: 60%;
+}
+
+.intro{
+    display:flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    /* width: 800px; */
+    /* justify-content: center; */
+}
+.name-title{
+     margin: 15px;
+}
+
+.intro1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    justify-content: flex-start;
+    /* width: 480px; */
+    /* background-color: blueviolet; */
+    
+
+}
+
+.intro-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.info{
+    display: flex;
+   justify-content: right;
+    flex-direction: column;
+    /* background-color: blanchedalmond; */
+    width: 350px;
+    margin: 0px;
+
+    
+
+}
+
+hr{
+    background-color: black;
+}
+
+
+.box2{
+    display: flex;
+    flex-direction: row;
+}
+
+.accenture{
+    display: flex;
+    flex-direction: row;
+}
+
+.tkh{
+    display: flex;
+    flex-direction: row;
+}
+
+.qcc{
+    display: flex;
+    flex-direction: row;
+}
+
+.cad{
+    display: flex;
+    flex-direction: row;
+}
+
+h6{
+    font-size: 12px;
+    margin-right: 25px;
+}
+
+.education-container{
+    padding-top: 20px;
+}
+
+.skills{
+    padding-left: 80px;
+}
+
+
+ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.bar{
+    margin-left: 15px;
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+.java{
+    height: 10px;
+    width:50%;
+    background-color: blanchedalmond;
+}
+
+.javascript{
+    height: 10px;
+    width:60%;
+    background-color: red;
+}
+
+.html{
+    height: 10px;
+    width:80%;
+    background-color: blue;
+}
+
+.css{
+    height: 10px;
+    width:60%;
+    background-color: red;
+}
+
+.bootstrap{
+    height: 10px;
+    width:50%;
+    background-color: blanchedalmond;
+}
+
+.sql{
+    height: 10px;
+    width:80%;
+    background-color: blue;
+}
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    height: 10px;
+    width:80%;
+}
+/*.big-box1{
+    display:flex;
+    flex-direction: row;
+}
+.accenture{
+    display:flex;
+    flex-direction: row;
+}
+.tkh{
+    display: flex;
+    flex-direction: row;
+}
+
+.qcc{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.cad{
+    display: flex;
+    flex-direction: row;
+}*/
