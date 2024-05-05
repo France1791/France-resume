@@ -1,7 +1,7 @@
 *{
     margin: 0;
     font-family: "Briem Hand", cursive;
-    background-color: aqua;
+    background-color: teal;
 }
 
 img{
@@ -69,6 +69,7 @@ img{
 
 hr{
     background-color: black;
+    width: 100%;
 }
 
 
@@ -160,23 +161,21 @@ ul li{
 }
 
 .footer{
-    display:flex;
-    flex-direction: row;
-    height: 10px;
-    width:80%;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100% ;
+  
+  font-size: 25px;
 }
-/*.big-box1{
-    display:flex;
-    flex-direction: row;
+
+h4:hover{
+    color:cornflowerblue;
 }
-.accenture{
-    display:flex;
-    flex-direction: row;
-}
-.tkh{
-    display: flex;
-    flex-direction: row;
-}
+/* a.footer{ */
+    /* color:black */
+/* } */
+
 
 .qcc{
     display: flex;
@@ -186,4 +185,4 @@ ul li{
 .cad{
     display: flex;
     flex-direction: row;
-}*/
+}
